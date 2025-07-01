@@ -86,15 +86,15 @@ Seguridad (es parte de la unidad 3)
 --------------------------------------------------------------------------
 Casos de prueba en Postman:
 
-Obtener o mostrar todos los usuarios o users:
+-Obtener o mostrar todos los usuarios o users:
     Método: GET
     URL: http://localhost/api/users/
 
-Obtener o mostrar todas las tareas o tasks:
+-Obtener o mostrar todas las tareas o tasks:
     Método: GET
     URL: http://localhost/api/tasks/
 
-Agregar un usuario o user:
+-Agregar un usuario o user:
     Método: POST
     URL: http://localhost/api/users/
     Body:
@@ -104,7 +104,7 @@ Agregar un usuario o user:
       "name": "Ricardo Perez",
       "email": "ricardo@example.com"
     }   
-Agregar un tarea o task:
+-Agregar un tarea o task:
     Método: POST
     URL: http://localhost/api/tasks/
     Body:
@@ -115,7 +115,7 @@ Agregar un tarea o task:
       "user_id": 1
     }
 
-Actualizar una tarea o task:
+-Actualizar una tarea o task:
     Método: PUT
     URL: http://localhost/api/tasks/1
     Body:
@@ -124,9 +124,9 @@ Actualizar una tarea o task:
       "status": "completada"
     }
 
-Ver el estado de healthcheck del servicio de usuarios o users:
+-Ver el estado de healthcheck del servicio de usuarios o users:
     http://localhost/api/users/health
 
-Ver el estado de healthcheck del servicio de tareas o tasks:
+-Ver el estado de healthcheck del servicio de tareas o tasks:
     http://localhost/api/tasks/health
 --------------------------------------------------------------------------
